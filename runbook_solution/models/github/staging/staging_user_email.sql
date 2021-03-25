@@ -1,0 +1,1 @@
+select * from {{ source('github', 'user_email') }}

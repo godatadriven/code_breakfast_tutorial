@@ -1,0 +1,7 @@
+version: 2
+
+models:
+    - name: commiter_after_work_hours
+      description: "everyone that commits after work hours"
+    - name: top_10_committers
+      description: "the top 10 commiters all time"

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: github
+    database: "code-breakfast"
+    schema: "code_breakfast_github"
+    tables:
+      - name: commit
+      - name: user
+      - name: user_email

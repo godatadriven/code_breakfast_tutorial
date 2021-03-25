@@ -1,0 +1,4 @@
+data/
+dbt_modules/*
+target/*
+*.DS_Store

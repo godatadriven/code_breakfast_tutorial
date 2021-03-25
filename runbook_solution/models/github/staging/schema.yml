@@ -1,0 +1,15 @@
+
+version: 2
+
+models:
+    - name: staging_commit
+      description: "staging table for github commit table"
+      columns:
+      - name: sha
+        description: Primary key
+        tests:
+          - unique
+          - not_null
+    - name: staging_user
+      description: ""
+    - name: staging_user_email
