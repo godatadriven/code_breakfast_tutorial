@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: staging_commit
+    description: This model cleans up the commit data
+    columns:
+      - name: sha
+        description: Primary key
+        tests:
+          - unique
+          - not_null
+
+  - name: staging_user_email
+    description: This model cleans up the commit data
+  - name: staging_user
+    description: This model cleans up the commit data

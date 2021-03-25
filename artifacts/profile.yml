@@ -1,0 +1,13 @@
+profile: # this needs to match the profile: in your dbt_project.yml file
+  target: default
+  outputs:
+    default:
+      type: bigquery
+      method: service-account
+      keyfile: /Users/misjapronk/.dbt/<credentials file> # replace this with the full path to your keyfile
+      project: code-breakfast # Replace this with your project id
+      dataset: dbt_<your name> # Replace this with dbt_your_name, e.g. dbt_bob
+      threads: 1
+      timeout_seconds: 300
+      location: EU
+      priority: interactive

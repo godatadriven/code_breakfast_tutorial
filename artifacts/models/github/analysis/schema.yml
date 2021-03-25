@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: all_commiters_with_no_work_life_balance
+    description: Shows all commiters that work after hours or in the weekends
+  - name: top_10_commiters
+    description: Shows the top 10 commiters of all times

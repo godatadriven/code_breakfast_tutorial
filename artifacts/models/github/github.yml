@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: github
+    database: "<database_name>"
+    schema: "<schema_name>"
+    tables:
+      - name: commit
+      - name: user
+      - name: user_email

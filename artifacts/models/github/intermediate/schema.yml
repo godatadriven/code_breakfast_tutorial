@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: intermediate_commit_user
+    description: combines the commit model with the user model
